@@ -1,0 +1,69 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 5em;
+    text-align:left;
+}
+.logo{
+    width: 8em;
+    float:right;
+}
+nav {
+    padding:2px;
+    background-color: black;
+    color:white;
+    margin-bottom: 1em;
+
+}
+nav ul{
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(5, auto);
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:yellowgreen;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 5px; 
+}
+
+article{
+    border-right: 2px solid rebeccapurple;
+}
+
+.c-image{
+    border: 2px solid grey;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.c-name{
+    font-size:0.9em;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.testimonial{
+    font-size:0.8em;
+    font-style: italic;
+}
