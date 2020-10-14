@@ -29,13 +29,21 @@ nav ul{
     display:grid;
     grid-template-columns: repeat(5, auto);
 }
-a{
+
+nav a{
+    padding:1em;
+    margin: 0 auto;
     color:white;
     text-decoration: none;
+    transition: all 0.5s ease-out;
 }
-a:hover{
-    color:yellowgreen;
+
+nav a:hover, nav a:focus{
+    color:#333;
+    background-color:white;
 }
+
+
 
 h2{
     text-decoration: underline;
@@ -54,7 +62,7 @@ article{
 .c-image{
     border: 2px solid grey;
     border-radius: 10px;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 .c-name{
