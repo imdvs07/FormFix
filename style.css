@@ -57,6 +57,8 @@ main{
 
 article{
     border-right: 2px solid rebeccapurple;
+    animation-name:slide-up;
+    animation-duration:2s;
 }
 
 .c-image{
@@ -74,4 +76,18 @@ article{
 .testimonial{
     font-size:0.8em;
     font-style: italic;
+}
+
+aside{
+    animation-name: slide-up;
+    animation-duration:2s;
+}
+
+@keyframes slide-up{
+    from{
+        margin-top:100%;
+    }
+    margin-top{
+        margin-top:0%;
+    }
 }
