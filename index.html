@@ -6,12 +6,20 @@
     <link rel="shortcut icon" href="images/icon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
     <title>FormFix</title>
 </head>
 <body>
     <header>
-        <img class = "logo" src="images/icon.png" alt="FormFix Logo">
-        <h1>FormFix</h1>    
+        
+        <h1 onclick="document.location.href='index.html';" class = 'heading'>FormFix</h1>
+        <a href = 'index.html'>
+            <img class = "logo" src="images/icon.png" alt="FormFix Logo">
+        </a>
+           
     </header>
     <nav>
         <ul>
@@ -30,13 +38,32 @@
             <p>And we're here to help you take those crucial steps towards a healthier lifestyle.</p>
         </article>
         <aside>
-            <h2>Customer Reviews</h2>
+          <h2>Customer Reviews</h2>
+          <div class = 'slideshow-container'> 
             <div class ="cr">
-                <img class = "c-image" src="images/milindsoman.jpg" alt="A happy customer-Milind Soman">
+                <img class = "c-image" src="CR_Images/milindsoman.jpg" alt="A happy customer-Milind Soman">
                 <p class = "c-name">Milind Soman<em>(Actor)</em></p>
                 <p class = "testimonial">"Even at my age, FormFix has made it possible for me to look and feel healthy without the unnecesary hassles."</p>
             </div>
+            <div class ="cr">
+                <img class = "c-image" src="CR_Images/shilpashetty.jpg" alt="Delighted-Shilpa Shetty">
+                <p class = "c-name">Shilpa Shetty<em>(Actress)</em></p>
+                <p class = "testimonial">"Even at my age, FormFix has made it possible for me to look and feel healthy without the unnecesary hassles."</p>
+            </div>
+            <div class ="cr">
+                <img class = "c-image" src="CR_Images/randeephooda.jpeg" alt="A happy customer-Randeep Hooda">
+                <p class = "c-name">Randeep Hooda<em>(Actor)</em></p>
+                <p class = "testimonial">"Even at my age, FormFix has made it possible for me to look and feel healthy without the unnecesary hassles."</p>
+            </div>
+            
+          </div>
+          
         </aside>
+
+        <script src = 'script.js'></script>
+
+            
+        
     </main>    
     </body>
 
