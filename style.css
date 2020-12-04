@@ -71,14 +71,20 @@ article{
     border-right: 2px solid rebeccapurple;
     animation-name:slide-up;
     animation-duration:2s;
+} 
+
+.calculator{
+    margin:5em;
+
 }
-  
 
 .c-image{
     border: 2px solid grey;
     border-radius: 10px;
     max-width: 80%;
-} 
+}
+
+
 
 .slideshow-container { 
      
@@ -88,10 +94,27 @@ article{
      
 }
 .slideshow-container > div { 
-    position: relative; 
+    position: absolute; 
     
 }
 
+.slideshow-container > .cr {
+    opacity:0;
+    transition: opacity 2s ease-in;
+    z-index:-1;
+}
+
+.slideshow-container > .cr.active {
+    
+    opacity:1;
+    z-index:0;
+    
+
+
+    
+    
+    
+}
 
 .c-name{
     font-size:0.9em;
@@ -138,6 +161,8 @@ aside{
     main aside{
         flex:1;
     }
+
+    
     nav a{
         padding:2em;
         
