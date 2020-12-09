@@ -30,6 +30,9 @@ function initSlideShow(slideshow){
     }, time);
 }
 
-function smoothScroll(target){
-    var target = document.querySelector()
-}
+const tl = gsap.timeline({defaults:{ease:'power1.out'}});
+
+tl.to('.text',{y:"0%", duration:1.5, stagger:1.5});
+tl.to('.slider', {y:"-100%", duration:1, delay:0.5});
+tl.to('.intro',{y:"-100%", duration:1}, "-=1");
+tl.fromTo()
