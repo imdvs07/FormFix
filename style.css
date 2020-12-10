@@ -297,8 +297,8 @@ aside{
 
 @media screen and (max-width:480px){
     .intro{
-        
         align-items: baseline;
+        padding-top:30%;
     }
     .intro-text{
         font-size: 1rem;
